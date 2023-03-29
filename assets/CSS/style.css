@@ -348,6 +348,7 @@ footer .wid-title-text
 	height: 40px;
 	line-height: 40px;
 	margin-top: 30px;
+	text-align: center;
 }
 footer .wid-body, .ender
 {
@@ -459,8 +460,7 @@ footer .txtff
 		flex-direction: column;
 	}
 	.areafooter, .footermenu{
-		padding: 20px;
-		flex-direction: column	;
+		flex-direction: column;
 	}
 	footer 	.wid-title-text{
 		display: flex;
@@ -498,5 +498,17 @@ footer .txtff
 		display: flex;
 		flex-direction: column;
 		justify-content: space-around;
+	}
+
+	.txtfff, .daysa{
+		padding: 10px;
+	}
+
+	footer .wid-body{
+		padding: 10px;
+	}
+
+	footer .wid-title-text{
+		margin-top: -10px;
 	}
 }	
